@@ -49,11 +49,11 @@ document.write("sums is"+c);//concatenation string with number by usinrg '+'
 sum(20,30);
 sum(20,98);
 */
-function display()
+/*function display()
 {
     alert("bre ready");
 }
-display();
+display();*/
 /*function pls(name)
 {
     document.write("name of ="+name );
@@ -69,18 +69,26 @@ pls("ajana");*/
 sum(10,20);*/
 /*function farenheit(f)
 {
-    var c=(5/9) * (f-32)
+    let c=(5/9) * (f-32);
+   
     document.write("temperature ="+c);
     console.log("temp"+c);
+    return c;
     
 }
-
-farenheit(102);
+let x=document.write("test"+farenheit(102));
+document.write("<br>test1" + x);
 */
 
+//document.write("temp" + farenheit(102));
 
-/*let x = function (num) { return num * num };
-console.log(x(4));*/
+
+
+/*let x = function (num) 
+{
+     return num * num 
+};
+console.log((4));*/
 
 /*function square(a)
 {
@@ -104,4 +112,19 @@ square(4);*/
     document.writeln(add(5,5));  
 for(let i=1;i<=5;i++)
     document.write(i);*/
-    
+   
+
+
+
+/*function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+  document.write("temp");
+
+} 
+toCelsius(77);
+*/
+for(i=1;i<=4;i++)
+for(j=1;j<2;j++)
+{
+    document.write(i);
+}
